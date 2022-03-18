@@ -11,18 +11,21 @@ geek.addEventListener('click', () => {
 	geekPopUp.classList.toggle('active');
 	wuJsPopUp.classList.remove('active');
 	wuFigmaPopUp.classList.remove('active');
+	rsschoolPopUp.classList.remove('active');
 
 })
 wayupJs.addEventListener('click', () => {
 	wuJsPopUp.classList.toggle('active');
 	geekPopUp.classList.remove('active');
 	wuFigmaPopUp.classList.remove('active');
+	rsschoolPopUp.classList.remove('active');
 
 })
 wayupFigma.addEventListener('click', () => {
 	wuFigmaPopUp.classList.toggle('active');
 	wuJsPopUp.classList.remove('active');
 	geekPopUp.classList.remove('active');
+	rsschoolPopUp.classList.remove('active');
 
 
 })
