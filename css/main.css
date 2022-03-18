@@ -291,7 +291,8 @@ h4 {
 }
 #geekbrains,
 #wayup-js,
-#wayup-figma {
+#wayup-figma,
+#rsschool {
    cursor: pointer;
    transition: all 0.2s ease;
 }
