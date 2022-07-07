@@ -341,4 +341,18 @@
    :root {
       --name: 25px;
    }
+   .skills-left,
+   .skills-center,
+   .skills-right {
+      justify-content: center;
+      gap: 30px;
+   }
+   .skill {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+   }
+   .skill-title {
+      margin: 0;
+   }
 }
